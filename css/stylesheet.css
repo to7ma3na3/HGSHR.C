@@ -289,11 +289,13 @@ header .name {
   display: grid;
   gap: 45px 20px;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
   margin: 1% 3% 3%;
   }
 
   .sec4 .frame .outer {
     height: 280px;
+    max-width: 90vw;
   }
 
   .sec4 .frame p {
